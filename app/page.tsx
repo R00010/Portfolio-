@@ -12,7 +12,7 @@ import { TestimonialsSection } from '@/components/TestimonialsSection';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-canvas text-ink">
+    <main className="min-h-screen bg-white text-black">
       <Navbar />
       <HeroSection />
       <AboutSection />
