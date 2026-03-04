@@ -11,10 +11,10 @@ export function HeroSection() {
       <div className="mx-auto grid w-full max-w-7xl gap-12 lg:grid-cols-[1.3fr_1fr] lg:items-center">
         <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.9, ease: 'easeOut' }}>
           <p className="mb-5 inline-flex rounded-full border border-black/20 bg-black/5 px-5 py-2 text-xs uppercase tracking-[0.3em] text-black/80">
-            BOSS · Software Engineer / Web Developer
+            Software Engineer / Web Developer
           </p>
           <h1 className="text-balance text-4xl font-black leading-tight tracking-tight text-black md:text-6xl">
-            Abdul Rehman
+            ABDUL REHMAN
             <span className="mt-2 block text-3xl font-semibold text-black/80 md:text-5xl">Full Stack Systems Architect</span>
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-black/70 md:text-lg">
@@ -53,9 +53,9 @@ export function HeroSection() {
           className="rounded-3xl border border-black/15 bg-black/[0.02] p-6"
         >
           <div className="mb-5 flex items-center gap-4 rounded-2xl border border-black/10 bg-white p-3">
-            <img src="/bitmoji-avatar.svg" alt="Bitmoji of Abdul Rehman" className="h-16 w-16 rounded-full border border-black/10" />
+            <img src="/bitmoji-avatar.svg" alt="Bitmoji of ABDUL REHMAN" className="h-16 w-16 rounded-full border border-black/10" />
             <div>
-              <p className="text-sm font-semibold text-black">Abdul Rehman Shahid (BOSS)</p>
+              <p className="text-sm font-semibold text-black">ABDUL REHMAN</p>
               <p className="text-xs uppercase tracking-[0.2em] text-black/60">Profile Bitmoji</p>
             </div>
           </div>

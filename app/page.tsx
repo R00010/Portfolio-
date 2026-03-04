@@ -12,7 +12,8 @@ import { TestimonialsSection } from '@/components/TestimonialsSection';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-black">
+    <main className="relative min-h-screen overflow-x-hidden bg-white text-black">
+      <div className="pointer-events-none absolute inset-0 -z-10 animate-pulse bg-[radial-gradient(circle_at_10%_10%,rgba(0,0,0,0.04),transparent_30%),radial-gradient(circle_at_90%_20%,rgba(0,0,0,0.03),transparent_28%),radial-gradient(circle_at_40%_90%,rgba(0,0,0,0.03),transparent_30%)]" />
       <Navbar />
       <HeroSection />
       <AboutSection />

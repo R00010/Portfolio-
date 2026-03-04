@@ -17,7 +17,7 @@ export function ContactSection() {
 
         <div className="mt-8 grid gap-4 md:grid-cols-2">
           <motion.a
-            href="mailto:abdulrehmanshahid.dev@gmail.com"
+            href="mailto:rehman.ali11900@gmail.com"
             whileHover={{ y: -2, scale: 1.01 }}
             whileTap={{ scale: 0.96 }}
             className="flex items-center gap-3 rounded-2xl border border-black/15 bg-white p-5 text-black"
@@ -25,7 +25,7 @@ export function ContactSection() {
             <Mail size={20} />
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-black/55">Email</p>
-              <p className="font-semibold">abdulrehmanshahid.dev@gmail.com</p>
+              <p className="font-semibold">rehman.ali11900@gmail.com</p>
             </div>
           </motion.a>
 

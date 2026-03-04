@@ -10,5 +10,4 @@
   <path d="M212 280C227 295 285 295 300 280" stroke="#7C2D12" stroke-width="8" stroke-linecap="round"/>
   <path d="M140 428C158 356 206 326 256 326C306 326 354 356 372 428" fill="#111827"/>
   <rect x="208" y="336" width="96" height="28" rx="14" fill="#F5C9A5"/>
-  <text x="256" y="478" text-anchor="middle" fill="#0F172A" font-family="Arial, sans-serif" font-size="28" font-weight="700">BOSS</text>
 </svg>

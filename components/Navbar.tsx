@@ -13,7 +13,7 @@ export function Navbar() {
     >
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
         <a href="#home" className="text-sm font-bold uppercase tracking-[0.3em] text-black">
-          Abdul Rehman
+          ABDUL REHMAN
         </a>
         <nav className="hidden items-center gap-6 md:flex">
           {navItems.map((item) => (
