@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Download, ArrowRight, FolderOpenDot } from 'lucide-react';
+import { Download, ArrowRight, FolderOpenDot, Github } from 'lucide-react';
 import { heroHighlights } from '@/data/content';
 import { PrimaryButton } from './PrimaryButton';
 
@@ -30,8 +30,19 @@ export function HeroSection() {
               <span className="mr-2 inline-flex"><FolderOpenDot size={16} /></span>View Projects
             </PrimaryButton>
             <PrimaryButton href="#contact" variant="ghost">
-              Let&apos;s Build Something<span className="ml-2 inline-flex"><ArrowRight size={16} /></span>
+              Contact Me<span className="ml-2 inline-flex"><ArrowRight size={16} /></span>
             </PrimaryButton>
+
+            <motion.a
+              href="https://github.com/R00010"
+              target="_blank"
+              rel="noreferrer"
+              whileHover={{ y: -2, scale: 1.04 }}
+              whileTap={{ scale: 0.9, rotate: -8 }}
+              className="inline-flex items-center gap-2 rounded-full border border-black/20 bg-white px-5 py-3 text-sm font-semibold text-black transition hover:bg-black hover:text-white"
+            >
+              <Github size={17} /> GitHub
+            </motion.a>
           </div>
         </motion.div>
 
@@ -41,6 +52,13 @@ export function HeroSection() {
           transition={{ duration: 1, delay: 0.2, ease: 'easeOut' }}
           className="rounded-3xl border border-black/15 bg-black/[0.02] p-6"
         >
+          <div className="mb-5 flex items-center gap-4 rounded-2xl border border-black/10 bg-white p-3">
+            <img src="/bitmoji-avatar.svg" alt="Bitmoji of Abdul Rehman" className="h-16 w-16 rounded-full border border-black/10" />
+            <div>
+              <p className="text-sm font-semibold text-black">Abdul Rehman Shahid (BOSS)</p>
+              <p className="text-xs uppercase tracking-[0.2em] text-black/60">Profile Bitmoji</p>
+            </div>
+          </div>
           <h3 className="text-sm font-semibold uppercase tracking-[0.26em] text-black/60">Strategic Highlights</h3>
           <ul className="mt-5 space-y-4">
             {heroHighlights.map((item, index) => (

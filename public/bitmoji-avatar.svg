@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="120" fill="#F8FAFC"/>
+  <circle cx="256" cy="256" r="190" fill="#E2E8F0"/>
+  <circle cx="256" cy="220" r="110" fill="#F5C9A5"/>
+  <path d="M166 222C166 179 203 146 256 146C309 146 346 179 346 222V238H166V222Z" fill="#111827"/>
+  <ellipse cx="214" cy="225" rx="16" ry="12" fill="#111827"/>
+  <ellipse cx="298" cy="225" rx="16" ry="12" fill="#111827"/>
+  <circle cx="214" cy="225" r="5" fill="white"/>
+  <circle cx="298" cy="225" r="5" fill="white"/>
+  <path d="M212 280C227 295 285 295 300 280" stroke="#7C2D12" stroke-width="8" stroke-linecap="round"/>
+  <path d="M140 428C158 356 206 326 256 326C306 326 354 356 372 428" fill="#111827"/>
+  <rect x="208" y="336" width="96" height="28" rx="14" fill="#F5C9A5"/>
+  <text x="256" y="478" text-anchor="middle" fill="#0F172A" font-family="Arial, sans-serif" font-size="28" font-weight="700">BOSS</text>
+</svg>

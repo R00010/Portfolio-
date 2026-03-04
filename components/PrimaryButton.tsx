@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ReactNode } from 'react';
+import { ReactNode, useState } from 'react';
 
 type PrimaryButtonProps = {
   href: string;
@@ -13,6 +13,8 @@ type PrimaryButtonProps = {
 };
 
 export function PrimaryButton({ href, children, variant = 'solid', external = false, download = false }: PrimaryButtonProps) {
+  const [pressed, setPressed] = useState(false);
+
   const classes = {
     solid: 'bg-black text-white hover:bg-black/90 border-black shadow-md',
     outline: 'bg-transparent text-black border-black/60 hover:bg-black hover:text-white',
@@ -20,7 +22,15 @@ export function PrimaryButton({ href, children, variant = 'solid', external = fa
   };
 
   return (
-    <motion.div whileHover={{ y: -3, scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+    <motion.div
+      whileHover={{ y: -3, scale: 1.02 }}
+      whileTap={{ scale: 0.96 }}
+      animate={{ y: pressed ? 1 : 0 }}
+      transition={{ type: 'spring', stiffness: 380, damping: 22 }}
+      onTapStart={() => setPressed(true)}
+      onTapCancel={() => setPressed(false)}
+      onTap={() => setPressed(false)}
+    >
       <Link
         href={href}
         target={external ? '_blank' : '_self'}
