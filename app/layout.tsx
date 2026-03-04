@@ -39,7 +39,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en" className={`${bodyFont.variable} ${headingFont.variable}`}>
-      <body>{children}</body>
+      <body>
+        <a href="#home" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[70] focus:rounded-md focus:bg-black focus:px-3 focus:py-2 focus:text-white">
+          Skip to content
+        </a>
+        {children}
+      </body>
     </html>
   );
 }
