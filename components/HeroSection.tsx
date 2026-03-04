@@ -11,7 +11,7 @@ export function HeroSection() {
       <div className="mx-auto grid w-full max-w-7xl gap-12 lg:grid-cols-[1.3fr_1fr] lg:items-center">
         <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.9, ease: 'easeOut' }}>
           <p className="mb-5 inline-flex rounded-full border border-black/20 bg-black/5 px-5 py-2 text-xs uppercase tracking-[0.3em] text-black/80">
-            Full Stack Problem Solver
+            BOSS · Software Engineer / Web Developer
           </p>
           <h1 className="text-balance text-4xl font-black leading-tight tracking-tight text-black md:text-6xl">
             Abdul Rehman
@@ -23,7 +23,7 @@ export function HeroSection() {
           </p>
 
           <div className="mt-9 flex flex-wrap gap-4">
-            <PrimaryButton href="/cv/Abdul-Rehman-CV.pdf" variant="solid" download>
+            <PrimaryButton href="/cv/Abdul-Rehman-Shahid-CV.html" variant="solid" download>
               <span className="mr-2 inline-flex"><Download size={16} /></span>Download CV
             </PrimaryButton>
             <PrimaryButton href="#projects" variant="outline">

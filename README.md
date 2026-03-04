@@ -35,12 +35,12 @@ This repo includes:
 
 ## CV download button
 
-The hero button points to:
+The hero button now downloads:
 
-`/cv/Abdul-Rehman-CV.pdf`
+`/cv/Abdul-Rehman-Shahid-CV.html`
 
-Place your actual resume file at:
+CV source path:
 
-`public/cv/Abdul-Rehman-CV.pdf`
+`public/cv/Abdul-Rehman-Shahid-CV.html`
 
-A placeholder note currently exists at `public/cv/README.txt`.
+If you want a PDF later, export this HTML CV to PDF and place it in `public/cv/`.

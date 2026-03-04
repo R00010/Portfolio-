@@ -1,4 +1,4 @@
-Place your real resume PDF at:
-public/cv/Abdul-Rehman-CV.pdf
+Current downloadable CV:
+public/cv/Abdul-Rehman-Shahid-CV.html
 
-Then the Download CV button will download the correct file in production.
+You can replace it with a PDF later and update the hero button path.
