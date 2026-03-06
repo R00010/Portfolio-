@@ -51,9 +51,9 @@ export function HeroSection() {
           initial={{ opacity: 0, x: 40 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.2, ease: 'easeOut' }}
-          className="rounded-3xl border border-black/15 bg-black/[0.02] p-6"
+          className="glass-card-light rounded-3xl p-6"
         >
-          <div className="mb-5 flex items-center gap-4 rounded-2xl border border-black/10 bg-white p-3">
+          <div className="mb-5 flex items-center gap-4 rounded-2xl glass-card-soft p-3">
             <Image src="/bitmoji-avatar.svg" alt="Bitmoji of ABDUL REHMAN" width={64} height={64} className="h-16 w-16 rounded-full border border-black/10" />
             <div>
               <p className="text-sm font-semibold text-black">ABDUL REHMAN</p>
@@ -68,7 +68,7 @@ export function HeroSection() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.25 + index * 0.1, duration: 0.5 }}
-                className="rounded-2xl border border-black/10 bg-white p-4 text-sm text-black/80"
+                className="rounded-2xl glass-card-soft p-4 text-sm text-black/80"
               >
                 {item}
               </motion.li>

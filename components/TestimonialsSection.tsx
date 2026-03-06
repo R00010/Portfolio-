@@ -21,7 +21,7 @@ export function TestimonialsSection() {
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.6, delay: index * 0.06 }}
               whileHover={{ y: -5 }}
-              className="rounded-3xl border border-black/10 bg-black/[0.02] p-6"
+              className="rounded-3xl glass-card-light p-6"
             >
               <p className="text-sm leading-relaxed text-black/80">“{testimonial.quote}”</p>
               <div className="mt-6 border-t border-black/10 pt-4">

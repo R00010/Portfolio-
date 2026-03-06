@@ -26,7 +26,7 @@ export function ServicesSection() {
                 viewport={{ once: true, amount: 0.2 }}
                 transition={{ duration: 0.7, delay: index * 0.08 }}
                 whileHover={{ y: -6 }}
-                className="rounded-3xl border border-black/10 bg-black/[0.02] p-7"
+                className="rounded-3xl glass-card-light p-7"
               >
                 <div className="mb-4 inline-flex rounded-2xl border border-black/15 bg-white p-3 text-black"><Icon size={20} /></div>
                 <h3 className="text-xl font-semibold text-black">{service.title}</h3>

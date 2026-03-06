@@ -7,7 +7,7 @@ import { AnimatedSection } from './AnimatedSection';
 export function ContactSection() {
   return (
     <AnimatedSection id="contact" className="px-6 pb-24 pt-20 lg:px-10">
-      <div className="mx-auto w-full max-w-7xl rounded-[2rem] border border-black/12 bg-black/[0.02] p-8 md:p-12">
+      <div className="mx-auto w-full max-w-7xl rounded-[2rem] glass-card-light p-8 md:p-12">
         <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-black/60">Contact</p>
         <h2 className="text-3xl font-black text-black md:text-5xl">Let&apos;s Build Your Next Platform</h2>
         <p className="mt-5 max-w-3xl text-black/70">
@@ -20,7 +20,7 @@ export function ContactSection() {
             href="mailto:rehman.ali11900@gmail.com"
             whileHover={{ y: -2, scale: 1.01 }}
             whileTap={{ scale: 0.96 }}
-            className="flex items-center gap-3 rounded-2xl border border-black/15 bg-white p-5 text-black"
+            className="flex items-center gap-3 rounded-2xl glass-card-soft p-5 text-black"
           >
             <Mail size={20} />
             <div>
@@ -35,7 +35,7 @@ export function ContactSection() {
             rel="noreferrer"
             whileHover={{ y: -2, scale: 1.01 }}
             whileTap={{ scale: 0.94, rotate: -2 }}
-            className="flex items-center gap-3 rounded-2xl border border-black/15 bg-white p-5 text-black"
+            className="flex items-center gap-3 rounded-2xl glass-card-soft p-5 text-black"
           >
             <Github size={20} />
             <div>

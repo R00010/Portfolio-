@@ -27,7 +27,7 @@ function Counter({ value, suffix }: { value: number; suffix: string }) {
 export function MetricsSection() {
   return (
     <AnimatedSection id="impact" className="px-6 py-20 lg:px-10">
-      <div className="mx-auto w-full max-w-7xl rounded-[2rem] border border-black/10 bg-black/[0.02] p-8 md:p-12">
+      <div className="mx-auto w-full max-w-7xl rounded-[2rem] glass-card-light p-8 md:p-12">
         <div className="mb-8 max-w-3xl">
           <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-black/60">Impact Metrics</p>
           <h2 className="text-3xl font-black text-black md:text-5xl">Numbers Backed by Real Systems</h2>
@@ -40,7 +40,7 @@ export function MetricsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.08, duration: 0.6 }}
-              className="rounded-2xl border border-black/10 bg-white p-6"
+              className="rounded-2xl glass-card-soft p-6"
             >
               <p className="text-xs uppercase tracking-[0.2em] text-black/55">{stat.label}</p>
               <p className="mt-4 text-4xl font-black text-black"><Counter value={stat.value} suffix={stat.suffix} /></p>
