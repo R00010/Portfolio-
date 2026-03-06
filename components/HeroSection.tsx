@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { Download, ArrowRight, FolderOpenDot, Github } from 'lucide-react';
 import { heroHighlights } from '@/data/content';
 import { PrimaryButton } from './PrimaryButton';
@@ -53,7 +54,7 @@ export function HeroSection() {
           className="rounded-3xl border border-black/15 bg-black/[0.02] p-6"
         >
           <div className="mb-5 flex items-center gap-4 rounded-2xl border border-black/10 bg-white p-3">
-            <img src="/bitmoji-avatar.svg" alt="Bitmoji of ABDUL REHMAN" className="h-16 w-16 rounded-full border border-black/10" />
+            <Image src="/bitmoji-avatar.svg" alt="Bitmoji of ABDUL REHMAN" width={64} height={64} className="h-16 w-16 rounded-full border border-black/10" />
             <div>
               <p className="text-sm font-semibold text-black">ABDUL REHMAN</p>
               <p className="text-xs uppercase tracking-[0.2em] text-black/60">Profile Bitmoji</p>
